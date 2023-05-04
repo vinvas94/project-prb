@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Watch Spot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <!----------- HERO ----------->
+    <main>
+      <section class="section-hero">
+        <div class="container">
+          <h1 class="hero-title">
+            Welcome to our collection of premium watches
+          </h1>
+
+          <!------------------- SLIDER ---------------->
+
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/swiper/watch-1-tab-des-1x.jpg 1x,
+                      ./images/swiper/watch-1-tab-des-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/swiper/watch-1-mob-1x.jpg 1x,
+                      ./images/swiper/watch-1-mob-2x.jpg 2x
+                    "
+                    media="(min-width: 375px)"
+                  />
+                  <img
+                    src="./images/swiper/watch-1-mob-1x.jpg"
+                    alt="watch"
+                    style="border: 1px black"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/swiper/watch-2-tab-des-1x.jpg 1x,
+                      ./images/swiper/watch-2-tab-des-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/swiper/watch-2-mob-1x.jpg 1x,
+                      ./images/swiper/watch-2-mob-2x.jpg 2x
+                    "
+                    media="(min-width: 375px)"
+                  />
+                  <img
+                    src="./images/swiper/watch-2-mob-1x.jpg"
+                    alt="watch"
+                    style="border: 1px black"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/swiper/watch-3-tab-des-1x.jpg 1x,
+                      ./images/swiper/watch-3-tab-des-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/swiper/watch-3-mob-1x.jpg 1x,
+                      ./images/swiper/watch-3-mob-2x.jpg 2x
+                    "
+                    media="(min-width: 375px)"
+                  />
+                  <img
+                    src="./images/swiper/watch-3-mob-1x.jpg"
+                    alt="watch"
+                    style="border: 1px black"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/swiper/watch-4-tab-des-1x.jpg 1x,
+                      ./images/swiper/watch-4-tab-des-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/swiper/watch-4-mob-1x.jpg 1x,
+                      ./images/swiper/watch-4-mob-2x.jpg 2x
+                    "
+                    media="(min-width: 375px)"
+                  />
+                  <img
+                    src="./images/swiper/watch-4-mob-1x.jpg"
+                    alt="watch"
+                    style="border: 1px black"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/swiper/watch-5-tab-des-1x.jpg 1x,
+                      ./images/swiper/watch-5-tab-des-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/swiper/watch-5-mob-1x.jpg 1x,
+                      ./images/swiper/watch-5-mob-2x.jpg 2x
+                    "
+                    media="(min-width: 375px)"
+                  />
+                  <img
+                    src="./images/swiper/watch-5-mob-1x.jpg"
+                    alt="watch"
+                    style="border: 1px black"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-buttons">
+            <div class="button-prev">
+              <button type="button" class="btn-prev">
+                <svg class="icon-btn-prev" width="18" height="18">
+                  <use href="./images/sprite-svg.svg#icon-chevron-prev"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="button-next">
+              <button type="button" class="btn-next">
+                <svg class="icon-btn-next" width="18" height="18">
+                  <use href="./images/sprite-svg.svg#icon-chevron-next"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="btn-numb">
+              <p class="btn-numb-list-text">01</p>
+              <span class="btn-numb-list"></span>
+              <p class="btn-numb-list-text">05</p>
+            </div>
+          </div>
+
+          <p class="hero-text">
+            Our watches are not just timepieces, but also an expression of your
+            personality and lifestyle. From classic designs to modern ones, we
+            have a watch to suit every taste and occasion.
+          </p>
+
+          <picture>
+            <source
+              srcset="
+                ./images/hero-img/img-hero-des-1x.jpg 1x,
+                ./images/hero-img/img-hero-des-2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./images/hero-img/img-hero-tab-1x.jpg 1x,
+                ./images/hero-img/img-hero-tab-2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/hero-img/img-hero-mob-1x.jpg 1x,
+                ./images/hero-img/img-hero-mob-2x.jpg 2x
+              "
+              media="(min-width: 375px)"
+            />
+            <img
+              src="./images/hero-img/img-hero-mob-1x.jpg"
+              alt="watch"
+              style="border: 1px black"
+            />
+          </picture>
+        </div>
+      </section>
+    </main>
+    <!----------- ////HERO ----------->
+
+    <!--------     SWIPER JS -------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-------   Initialize Swiper -->
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
+        navigation: {
+          nextEl: ".button-next",
+          prevEl: ".button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

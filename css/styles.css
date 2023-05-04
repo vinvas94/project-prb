@@ -1,0 +1,137 @@
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.section-hero {
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  background-color: black;
+}
+
+.hero-title {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+.hero-content > .hero-text {
+  padding-left: 88px;
+}
+
+.hero-text {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 86px;
+}
+.swiper-buttons {
+  display: flex;
+  margin-top: 20px;
+  height: 32px;
+  align-items: flex-start;
+}
+
+.swiper {
+  width: 266px;
+  margin-left: 0;
+}
+
+.swiper-buttons > .btn-prev {
+  align-items: center;
+  justify-content: center;
+}
+
+.button-prev {
+  margin-right: 12px;
+}
+
+.button-next {
+  margin-right: 116px;
+}
+
+.btn-prev {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.icon-btn-prev {
+  stroke: #ffffff;
+}
+
+.icon-btn-next {
+  stroke: #ffffff;
+}
+
+.btn-next {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-prev:hover,
+.btn-prev:focus {
+  border: 1px solid rgba(255, 255, 255);
+}
+
+.btn-next:hover,
+.btn-next:focus {
+  border: 1px solid rgba(255, 255, 255);
+}
+
+.btn-numb-list {
+  border: 1px solid #ffffff;
+  display: block;
+  width: 32px;
+  height: 0;
+}
+
+.btn-numb-list-text {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.btn-numb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
