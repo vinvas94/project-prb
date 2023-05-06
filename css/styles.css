@@ -1,5 +1,14 @@
 body {
   font-family: "Epilogue", sans-serif;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
 }
 
 .img {
@@ -43,15 +52,20 @@ button {
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: #ffffff;
-  margin-top: 40px;
-  margin-bottom: 40px;
   padding-left: 86px;
 }
+
+.hero-text-div-mob {
+  margin-bottom: 40px;
+}
+
 .swiper-buttons {
   display: flex;
   margin-top: 20px;
+  margin-bottom: 32px;
   height: 32px;
-  align-items: flex-start;
+  align-items: end;
+  justify-content: space-between;
 }
 
 .swiper {
@@ -64,12 +78,10 @@ button {
   justify-content: center;
 }
 
-.button-prev {
+.button-cont {
+  display: flex;
+  gap: 12px;
   margin-right: 12px;
-}
-
-.button-next {
-  margin-right: 116px;
 }
 
 .btn-prev {
@@ -131,6 +143,11 @@ button {
 
 .btn-numb {
   display: flex;
-  align-items: center;
   gap: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text-div-des {
+  display: none;
 }
