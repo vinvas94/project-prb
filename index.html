@@ -26,7 +26,7 @@
     <!----------- HERO ----------->
     <main>
       <section class="section-hero">
-        <div class="container">
+        <div class="container section-container-hero">
           <div class="hero-title-container">
             <h1 class="hero-title">
               Welcome to our collection of premium watches
@@ -159,7 +159,6 @@
                   </picture>
                 </div>
               </div>
-
               <div class="swiper-buttons">
                 <div class="button-cont-mob">
                   <button type="button" class="btn-prev">
@@ -207,8 +206,38 @@
                 ones, we have a watch to suit every taste and occasion.
               </p>
             </div>
+            <div class="img-hero-tab-des">
+              <picture>
+                <source
+                  srcset="
+                    ./images/hero-img/img-hero-des-1x.jpg 1x,
+                    ./images/hero-img/img-hero-des-2x.jpg 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    ./images/hero-img/img-hero-tab-1x.jpg 1x,
+                    ./images/hero-img/img-hero-tab-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/hero-img/img-hero-mob-1x.jpg 1x,
+                    ./images/hero-img/img-hero-mob-2x.jpg 2x
+                  "
+                  media="(min-width: 375px)"
+                />
+                <img
+                  src="./images/hero-img/img-hero-mob-1x.jpg"
+                  alt="watch"
+                  style="border: 1px black"
+                />
+              </picture>
+            </div>
           </div>
-          <div class="">
+          <div class="img-hero-mob">
             <picture>
               <source
                 srcset="

@@ -40,8 +40,12 @@ button {
   margin-bottom: 60px;
 }
 
-.hero-content > .hero-text {
-  padding-left: 88px;
+.hero-text-div-des {
+  display: none;
+}
+
+.hero-text-div-mob {
+  margin-bottom: 40px;
 }
 
 .hero-text {
@@ -55,10 +59,10 @@ button {
   padding-left: 86px;
 }
 
-.hero-text-div-mob {
-  margin-bottom: 40px;
+.swiper {
+  width: 266px;
+  margin-left: 0;
 }
-
 .swiper-buttons {
   display: flex;
   margin-top: 20px;
@@ -74,11 +78,6 @@ button {
   gap: 6px;
   justify-content: center;
   align-items: center;
-}
-
-.swiper {
-  width: 266px;
-  margin-left: 0;
 }
 
 .swiper-buttons > .btn-prev {
@@ -152,6 +151,6 @@ button {
   color: #ffffff;
 }
 
-.hero-text-div-des {
+.img-hero-tab-des {
   display: none;
 }

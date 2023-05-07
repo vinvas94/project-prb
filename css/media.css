@@ -14,8 +14,10 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 0 32;
+  }
+
+  .section-container-hero {
     display: flex;
     flex-wrap: wrap;
   }
@@ -84,9 +86,8 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 1176px;
+    padding: 0;
   }
 
   .section-hero {
@@ -112,6 +113,22 @@
   }
 
   .container-swiper {
-    margin-right: 64px;
+    gap: 64px;
+  }
+
+  .img-hero-mob {
+    display: none;
+  }
+
+  .img-hero-tab-des {
+    display: flex;
+  }
+
+  .swiper {
+    align-self: flex-end;
+  }
+
+  .swiper-buttons {
+    margin-bottom: 0;
   }
 }
