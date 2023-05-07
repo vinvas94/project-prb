@@ -66,6 +66,14 @@ button {
   height: 32px;
   align-items: end;
   justify-content: space-between;
+  overflow: hidden;
+}
+
+.btn-numb {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper {
@@ -78,10 +86,13 @@ button {
   justify-content: center;
 }
 
-.button-cont {
+.button-cont-mob {
   display: flex;
   gap: 12px;
-  margin-right: 12px;
+}
+
+.button-cont-tab-des {
+  display: none;
 }
 
 .btn-prev {
@@ -139,13 +150,6 @@ button {
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: #ffffff;
-}
-
-.btn-numb {
-  display: flex;
-  gap: 6px;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero-text-div-des {
