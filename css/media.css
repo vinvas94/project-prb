@@ -14,7 +14,7 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    padding: 0 32;
+    padding: 0 32px;
   }
 
   .section-container-hero {
@@ -53,23 +53,31 @@
     gap: 12px;
   }
 
+  .button-prev {
+    width: 40px;
+    height: 40px;
+  }
+  .button-next {
+    width: 40px;
+    height: 40px;
+  }
+
   .btn-numb-list {
     width: 40px;
   }
 
   .swiper-buttons {
-    margin-bottom: 40px;
     height: 40px;
+    margin-right: 262px;
   }
 
   .swiper {
     width: 436px;
+    height: 255px;
   }
-  .container-swiper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+
+  .swiper-container {
+    margin-right: 20px;
   }
 
   .hero-text-div-mob {
@@ -112,8 +120,11 @@
     margin-bottom: 44px;
   }
 
-  .container-swiper {
-    gap: 64px;
+  .swiper-container {
+    margin-right: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
   }
 
   .img-hero-mob {
@@ -129,6 +140,10 @@
   }
 
   .swiper-buttons {
+    margin-bottom: 0;
+  }
+
+  .swiper-bt-pag {
     margin-bottom: 0;
   }
 }
