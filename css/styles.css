@@ -79,30 +79,9 @@ button {
   color: #ffffff;
 }
 
-.btn-numb {
-  display: flex;
-  gap: 6px;
-  justify-content: center;
-  align-items: center;
-}
-
 .swiper-bt-pag {
   margin-top: 20px;
   margin-bottom: 40px;
-}
-
-.swiper-buttons > .btn-prev {
-  align-items: center;
-  justify-content: center;
-}
-
-.button-cont-mob {
-  display: flex;
-  gap: 12px;
-}
-
-.button-cont-tab-des {
-  display: none;
 }
 
 .swiper-pagination {
@@ -141,35 +120,10 @@ button {
   stroke: rgba(255, 255, 255, 0.5);
 }
 
-.btn-prev:hover,
-.btn-prev:focus {
-  border: 1px solid rgba(255, 255, 255);
-  stroke: #ffffff;
-}
-
-.btn-next:hover,
-.btn-next:focus {
-  border: 1px solid rgba(255, 255, 255);
-  stroke: #ffffff;
-}
-
-.btn-numb-list {
-  border: 1px solid #ffffff;
-  display: block;
-  width: 32px;
-  height: 0;
-}
-
-.btn-numb-list-text {
-  font-family: "Epilogue";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
-  color: #ffffff;
-}
-
 .img-hero-tab-des {
   display: none;
+}
+
+.button-next :hover {
+  fill: #ffffff;
 }

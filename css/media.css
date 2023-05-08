@@ -34,25 +34,6 @@
     line-height: 1.03;
   }
 
-  .btn-prev {
-    width: 40px;
-    height: 40px;
-  }
-
-  .btn-next {
-    width: 40px;
-    height: 40px;
-  }
-
-  .button-cont-mob {
-    display: none;
-  }
-
-  .button-cont-tab-des {
-    display: flex;
-    gap: 12px;
-  }
-
   .button-prev {
     width: 40px;
     height: 40px;
@@ -60,10 +41,6 @@
   .button-next {
     width: 40px;
     height: 40px;
-  }
-
-  .btn-numb-list {
-    width: 40px;
   }
 
   .swiper-buttons {
